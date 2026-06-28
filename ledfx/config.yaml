@@ -11,16 +11,13 @@ startup: application
 boot: auto
 init: false
 ingress: true
+ingress_port: 8888
 webui: "http://[HOST]:[PORT:8888]"
-panel_icon: mdi:lightning-bolt
+panel_icon: mdi:poll
 panel_title: LedFx
 panel_admin: false
 ports:
-  "8888/tcp": null
+  "8888/tcp": 8888
 ports_description:
   "8888/tcp": "LedFx web interface"
-map:
-  - share:rw
-options: {}
-schema: false
 image: "ledfxorg/ledfx"
