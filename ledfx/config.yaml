@@ -9,9 +9,6 @@ arch:
   - amd64
 init: false
 webui: "http://[HOST]:[PORT:8888]"
-panel_icon: mdi:poll
-panel_title: LedFx
-panel_admin: false
 ports:
   "8888/tcp": 8888
 ports_description:
