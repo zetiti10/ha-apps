@@ -1,6 +1,8 @@
-# Home Assistant App: Example app
+# Home Assistant App: LedFx
 
-_Example app to use as a blueprint for new apps._
+Run LedFx on Home Assistant OS using the upstream Docker image from Docker Hub.
+
+This app exposes the LedFx browser interface inside Home Assistant and adds a sidebar entry for easy access.
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]

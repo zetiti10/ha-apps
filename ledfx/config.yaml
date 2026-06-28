@@ -1,0 +1,26 @@
+# https://developers.home-assistant.io/docs/apps/configuration#app-configuration
+name: LedFx
+version: "latest"
+slug: ledfx
+description: Network based LED effect engine designed to deliver advanced real-time audio effects to a wide variety of devices. 
+url: "https://github.com/LedFx/LedFx"
+arch:
+  - aarch64
+  - amd64
+startup: application
+boot: auto
+init: false
+ingress: true
+webui: "http://[HOST]:[PORT:8888]"
+panel_icon: mdi:lightning-bolt
+panel_title: LedFx
+panel_admin: false
+ports:
+  "8888/tcp": null
+ports_description:
+  "8888/tcp": "LedFx web interface"
+map:
+  - share:rw
+options: {}
+schema: false
+image: "ledfxorg/ledfx"
