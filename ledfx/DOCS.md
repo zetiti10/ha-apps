@@ -4,9 +4,8 @@
 
 Install the LedFx app from this repository and start it from the Home Assistant Apps page.
 
-Once the app is started, open the LedFx interface from the sidebar entry or the app page.
 
-LedFx runs on the internal port `8888` and is exposed to Home Assistant through the app web UI.
+LedFx runs on the internal port `8888`.
 
 ## Notes
 
