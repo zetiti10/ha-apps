@@ -8,8 +8,7 @@ arch:
   - aarch64
   - amd64
 init: false
-ingress: true
-ingress_entry: /
+webui: "http://[HOST]:[PORT:8888]"
 panel_icon: mdi:poll
 panel_title: LedFx
 panel_admin: false
