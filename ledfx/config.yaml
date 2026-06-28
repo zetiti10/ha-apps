@@ -12,7 +12,9 @@ boot: auto
 init: false
 ingress: true
 ingress_port: 8888
-webui: "http://[HOST]:[PORT:8888]"
+ingress_entry: /
+ingress_stream: true
+webui: "http://[HOST]:[PORT:8888]/"
 panel_icon: mdi:poll
 panel_title: LedFx
 panel_admin: false
